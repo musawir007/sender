@@ -6,7 +6,7 @@ try:
         ob.starttls()
         ob.login("musawir2024@gmail.com","tdfy iwuh ulcn nznq")
         subject = "musawir"
-        body=f"iam your frend {m}"
+        body=f"iam your frend hello working {m}"
         message = "subject:{}\n\n{}".format(subject,body)
 
         ob.sendmail("musawir2024@gmail.com","musawir8880@gmail.com",message)
