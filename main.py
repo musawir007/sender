@@ -3,7 +3,9 @@ from faker import Faker
 from datetime import datetime
 import os
 import csv
-os.system('clear')
+os.system('pip install requests')
+os.system('pip install faker')
+# os.system('clear')
 print('''                                    _      
  _ __ ___  _   _ ___  __ ___      _(_)_ __
 | '_ ` _ \| | | / __|/ _` \ \ /\ / / | '__|
